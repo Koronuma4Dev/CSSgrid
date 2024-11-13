@@ -64,3 +64,9 @@ Example
 }
 
 That’ll create a grid that’s four columns wide by three rows tall. The entire top row will be composed of the header area. The middle row will be composed of two main areas, one empty cell, and one sidebar area. The last row is all footer.
+
+Grid template 
+A shorthand for setting grid-template-rows, grid-template-columns, and grid-template-areas in a single declaration.
+.container {
+  grid-template: none | <grid-template-rows> / <grid-template-columns>;
+}
