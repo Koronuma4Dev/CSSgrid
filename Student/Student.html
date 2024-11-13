@@ -1,0 +1,89 @@
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: #b1b1b1d2;
+    color: #f4f4f4;
+}
+
+.card h2 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.card p {
+    margin: 1.1 rem;
+    color: #666;
+}
+</style>
+
+<main>
+    <div class="container">
+        <h1>Student List</h1>
+        <div class="grid">
+            <div class="card">
+                <h2>Mark Zuckerburg</h2>
+                <p>Grade: A</p>
+                <p>Age: 20</p>
+            </div>
+            <div class="card">
+                <h2>Bill gates</h2>
+                <p>Grade: B</p>
+                <p>Age: 21</p>
+            </div>
+            <div class="card">
+                <h2>Dakota Johnson</h2>
+                <p>Grade: A+</p>
+                <p>Age: 22</p>
+            </div>
+            <div class="card">
+                <h2>Ryan Gosling</h2>
+                <p>Grade: C</p>
+                <p>Age: 23</p>
+            </div>
+            <div class="card">
+                <h2>Emma Stone</h2>
+                <p>Grade: B+</p>
+                <p>Age: 19</p>
+            </div>
+            <div class="card">
+                <h2>Mia Goth</h2>
+                <p>Grade: A</p>
+                <p>Age: 20</p>
+            </div>
+        </div>
+    </div>
+</main>

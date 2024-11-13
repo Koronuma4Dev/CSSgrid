@@ -1,0 +1,98 @@
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    margin-top: 5rem;
+    font-size: 2.1rem;
+    font-weight: 700;
+    text-align: center;
+    color: #333;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+    cursor: pointer;
+    
+}
+.img{
+    width: 10rem;
+    height: 10rem;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: #b1b1b1d2;
+    color: #f4f4f4;
+}
+
+.card h2 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.card p {
+    margin: 1.1 rem;
+    color: #252222;
+    margin-top: 4rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+</style>
+
+<main>
+    <div class="container">
+        <h1>Movie list</h1>
+        <div class="grid">
+            <div class="card">
+                <img  class="img" src="sunstance.jpg" alt="">
+                <h2>The Substance</h2>
+               
+            </div>
+            <div class="card">
+                <img  class="img" src="DAW.jpg" alt="">
+                <h2>Deadpool & Wolverine</h2>
+        
+            </div>
+         
+            <div class="card">
+                <img  class="img" src="The devil.jpg" alt="">
+                <h2>The devil wears prada</h2>
+             
+            </div>
+            <div class="card">
+                <img  class="img" src="BFF MO.jpg" alt="">
+                <h2>Oppenheimer</h2>
+     
+          
+            </div>
+            <div class="card">
+                <img  class="img" src="Maxxine.jpg" alt="">
+                <h2>MaXXXine</h2>
+               
+               
+            </div>
+        </div>
+    </div>
+</main>
